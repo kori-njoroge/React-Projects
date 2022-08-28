@@ -1,0 +1,26 @@
+/* *{
+    background-color: blue;
+} */
+
+.nav-bar {
+  background-image: url(../images/cube.jpeg);
+  /* background-color: blue; */
+  width: 100%;
+  height: 65px;
+  position: sticky;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-items-left {
+  color: blue;
+  justify-content: left;
+  padding-left: 10px;
+}
+
+.navbar-items-right{
+    color: purple;
+    align-items:center;
+    display: flex;
+    padding-right: 5px;
+}
